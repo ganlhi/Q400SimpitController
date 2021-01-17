@@ -9,7 +9,7 @@
     <Grid>
         <TabControl>
             <TabItem Header="Setup">
-                <local:SetupForm Setup="{Binding Setup}" SaveSetupEvent="SetupFormOnSaveSetup"/>
+                <local:SetupForm x:Name="SetupForm"/>
             </TabItem>
             <TabItem Header="Mappings" />
         </TabControl>
